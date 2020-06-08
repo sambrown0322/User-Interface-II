@@ -145,7 +145,7 @@ section {
   align-items: baseline;
 }
 .gallery div {
-  flex-basis: 25%;
+  width: 20%;
 }
 .gallery div img {
   width: 100%;
@@ -205,5 +205,17 @@ p {
   }
   .gallery div {
     flex-basis: 45%;
+  }
+}
+@media (max-width: 360px) {
+  footer {
+    width: 90%;
+    margin: 0 auto;
+  }
+  nav a {
+    width: 27%;
+  }
+  .intro {
+    width: 100%;
   }
 }
