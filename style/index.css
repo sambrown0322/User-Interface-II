@@ -116,6 +116,7 @@ nav {
   text-decoration: none;
   color: lightgray;
   border: 3px dotted black;
+  min-width: 15%;
 }
 h2 {
   font-size: 4rem;
@@ -175,7 +176,7 @@ p {
     margin: 0;
   }
   nav a {
-    width: 15%;
+    min-width: 20%;
     margin-top: 1rem;
   }
   .intro {
@@ -201,7 +202,7 @@ p {
 }
 @media (max-width: 500px) {
   nav a {
-    width: 20%;
+    min-width: 20%;
   }
   .gallery div {
     flex-basis: 45%;
@@ -211,9 +212,6 @@ p {
   footer {
     width: 90%;
     margin: 0 auto;
-  }
-  nav a {
-    width: 27%;
   }
   .intro {
     width: 100%;
